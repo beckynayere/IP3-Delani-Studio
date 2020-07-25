@@ -1,0 +1,47 @@
+.jumbotron  Welcome {
+    background-image: url("image/background/h_img.jpg");
+    background-size: auto;
+    background-size: cover;
+    
+}
+.jumbotron services { 
+            background-image: url('image/background/s_img.jpg'); 
+            background-size: cover;
+}
+.jumbotron card {
+    background-image: url("image/service_icons/dev_icon.png");
+
+}
+.jumbotron card {
+    background-image: url("image/service_icons/design_png");
+}
+.jumbotron card {
+    background-image: url("image/service_icons/product_icon");
+    
+}
+
+.jumbotron portfolio {
+    background-image: url("image/portfolio/work1.jpg");
+}
+.jumbotron portfolio {
+    background-image: url("image/portfolio/work2.jpg");
+}
+.jumbotron portfolio {
+    background-image: url("image/portfolio/work3.jpg");
+}
+.jumbotron portfolio {
+    background-image: url("image/portfolio/work4.jpg");
+}
+.jumbotron portfolio {
+    background-image: url("image/portfolio/work5.jpg");
+}
+.jumbotron portfolio {
+    background-image: url("image/portfolio/work6.jpg");
+}
+.jumbotron portfolio {
+    background-image: url("image/portfolio/work7.jpg");
+}
+.jumbotron portfolio {
+    background-image: url("image/portfolio/work8.jpg");
+}
+
