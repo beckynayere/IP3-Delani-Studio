@@ -176,4 +176,26 @@ background-image: url("image/services_icons/product_icon.png");
     width: 100%;
     height: auto;
 }
+.inittialltHiddenMain{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 33vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.initiallyHidden{
+    background-color: rgba(255, 255, 255, 0.63);
+    min-height: 33vh;
+    width: 100%;
+    display: none ;
+}
+.initiallyHidden h3{
+    padding-top: 12vh;
+    text-align: center;
+}
 }

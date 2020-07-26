@@ -7,11 +7,11 @@
                 alert("*"  + name + myMessage );
                 
                 
-                $(document).ready(function(){
-                    var $content = $(".content").hide();
-                    $(".toggle").on("click", function(e){
-                        $(this).toggleClass("expanded");
-                        $content.slideToggle();
-                    });
-                });
-            }
+                // $(document).ready(function(){
+                //     var $content = $(".content").hide();
+                //     $(".toggle").on("click", function(e){
+                //         $(this).toggleClass("expanded");
+                //         $content.slideToggle();
+                //     });
+                // });
+        
