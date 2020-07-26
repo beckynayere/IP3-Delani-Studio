@@ -146,3 +146,21 @@ background-image: url("image/services_icons/product_icon.png");
         width: 100%;
         float: left;
     }
+    /* rearrange the images on small screens */
+@media screen and (max-width: 850px) and (min-width: 600px) {
+    #rowElement{
+        width: 48% ;
+        margin: 2vh auto;
+        justify-content: space-around;
+        float: left ;
+    }
+}
+@media screen and (max-width: 599px) and (min-width: 100px) {
+    #rowElement{
+        width: 90% ;
+        margin: 1vh auto;
+        justify-content: space-around;
+        float: left ;
+    }
+}
+}
