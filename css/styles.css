@@ -88,6 +88,10 @@ nav-item,li,a{
 background-image: url("image/services_icons/product_icon.png");
 
     }
+
+.toggle .text {
+    margin-left : 10px;
+}
     #section{
         background-position: center;
         background-size: cover;
