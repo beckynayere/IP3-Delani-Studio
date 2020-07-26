@@ -92,6 +92,37 @@ background-image: url("image/services_icons/product_icon.png");
 .toggle .text {
     margin-left : 10px;
 }
+
+.toggleSection{
+    display: flex;
+    min-height: 30vh;
+}
+.toggleSection div img{
+    display: block;
+    margin: 5vh auto;
+}
+.toggleImage1{
+    width: 33.3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* second image */
+.toggleImage2{
+    width: 33.3%;
+    text-align: center;
+}
+/* third image */
+.toggleImage3{
+    width: 33.3%;
+    text-align: center;
+}
+/* toggle */
+.initiallyHiden1{
+    display: none ;
+    margin: 5px 20px;
+    text-align: center;
+}
     #section{
         background-position: center;
         background-size: cover;
