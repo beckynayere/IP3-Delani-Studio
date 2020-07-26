@@ -77,19 +77,29 @@ nav-item,li,a{
         display:inline-block;
         height:48px;
         width:48px;
-        background-image:url("design_icon.png");
+        background-image:url("image/services_icons/design_icon.png");
     }
 
     .toggle.expanded{
-        background-image:url("dev_icon.png");
+        background-image:url("image/services_icons/dev_icon.png");
     }
     .toggle.expanded{
 
-background-image: url("product_icon.png");
-
-
-
-
+background-image: url("image/services_icons/product_icon.png");
 
     }
-}
+    #section{
+        background-position: center;
+        background-size: cover;
+        min-height: 95vh;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #section img:last-child{
+        position: absolute;
+        bottom: 10px;
+    }
