@@ -1,4 +1,31 @@
-.jumbotron  Welcome {
+
+
+nav{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.288) !important;
+}
+.logo{
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 0px;
+
+}
+.nav-item{
+    margin-left: 20px;
+}
+nav-item,li,a{
+    color: white !important;
+}
+.dropdown-item{
+    color: black !important;
+}
+.nav-item,li,a:hover{
+    color: blue !important;
+}
+/* end of nav styles */.jumbotron  Welcome {
     background-image: url("image/background/h_img.jpg");
     background-size: auto;
     background-size: cover;
@@ -45,3 +72,24 @@
     background-image: url("image/portfolio/work8.jpg");
 }
 
+/* jumbotron what we do { */
+    .toggle{
+        display:inline-block;
+        height:48px;
+        width:48px;
+        background-image:url("design_icon.png");
+    }
+
+    .toggle.expanded{
+        background-image:url("dev_icon.png");
+    }
+    .toggle.expanded{
+
+background-image: url("product_icon.png");
+
+
+
+
+
+    }
+}

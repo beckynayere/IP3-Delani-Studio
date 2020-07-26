@@ -1,319 +1,241 @@
-<!doctype html>
+
+
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Delani Studio</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Delani studio</title>
 </head>
-
 <body>
-  <div class=row>
-
-    <div class="container">
-
-      <div class="jumbotron">
-        <div class="card text-white bg-primary">
-          <img class="card-img-top" src="image/backgrounds/h_img.jpg" alt="h">
-          <div class="card-body">
-            <h1 class="card-title">Home</h>
-              <p class="card-text">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMRNT</p>
-          </div>
+    <!-- The navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-">
+        <a class="navbar-brand" href="#home"><img class="logo" src="image/logo/logo.png" alt="logo" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About us</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#services">Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#whatWeDo">What we do</a>
+             </li>
+          </ul>
+          <span class="float-right">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown float-right">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Portfolio</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                  <a class="dropdown-item" href="#projects" >Social media template</a>
+                  <a class="dropdown-item" href="#projects" >Pets webpage </a>
+                  <a class="dropdown-item" href="#projects" >Cookie recipe</a>
+                  <a class="dropdown-item" href="#projects" >Portfolio landing page</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact us</a>
+            </li>
+          </ul>
+        </span>
         </div>
-        <!-- <h1 class="display-4">Services</h1>
-            <p class="lead">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMRNT</p> -->
-        <hr class="my-2">
-        <p>More info</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#Home" role="button">Home</a>
-        </p>
-      </div>
-
-      <div class="jumbotron">
-        <h1 class="display-3">ABOUT US</h1>
-        <p class="lead">When you work with us, you are part of a team of commited collaborators. All aspects pf
-          software development process are intergrated, interactive<br>
-          and agile<br>
-          Our approach unifies design, development and product management to create exceptional products.<br>
-          We start each project by understanding your business goals,the user's needs and product requirements.<br>
-          Then we help translate them into effective and elegant solutions.</p>
-        <hr class="my-2">
-        <p>More info</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#ABOUT US" role="button">About us</a>
-        </p>
-      </div>
-
-      <div class="jumbotron">
-        <div class="card text-white bg-primary">
-          <img class="div class=" card text-white bg-secondary>
-          <img class="card-img-top" src="image/backgrounds/s_image.jpg" alt="s">
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
-        <div class="card-body">
-          <h1 class="display-4">Services</h1>
-          <p class="lead">Before we sign a contract or write a line of code our team will spend the necessary time
-            needed to understand your product vision <br>
-            The outcome of this scoping session is proposal or high level statement of work.<br>
-            based on your requirements, we can provide a complete offering or just the pieces you need.</p>
-        </div>
-      </div>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#Services" role="button">Services</a>
-      </p>
+      </nav>
+<!-- The home page  -->
+<section id="home" class="container-fluid" style="padding-top: 7.3vh;">
+    <div class="row" id="section" style="background-image: url('images/backgrounds/h_img.jpg');">
+      <img class="slideRight" src="images/logo/logo.png" alt="mouse_click" srcset="">
+      <h1 class="slideRight" >Welcome</h1>
+      <h1 class="slideRight">To Delani Studio</h1>
+      <h6 class="slideRight">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT.</h6>
+      <img src="images/mouse_click.png" alt="mouse_click">
     </div>
-
-    <div class="jumbotron">
-
+</section>
+<!-- about us page -->
+<main id="aboutUs" class="container">
+    <div class="row asideContents ">
+      <h2>About us</h2>
+      <p>When you work with us, you are part of committed collaborators. all aspects of our software development process are integrated, interactive and agile.</p> 
+      <p>Our approach unifies design, development and product management to create exceptional products.</p>
+      <p>We start each project by understanding your business goals, the users needs and the product requirements,</p>
+      <p>Then we help translate them into effective and elegant solutions.</p>
     </div>
-    <div class="card-columns">
-      <div class="card">
-        <img class="card-img-top" src="image/services_icons/design_icon.png" alt="design">
-        <div class="card-body">
-          <h4 class="card-title">DESIGN</h4>
-          <p class="card-text">Text</p>
-        </div>
-      </div>
+</main>
+<!-- about us page -->
+<aside id="services" class="container-fluid">
+    <div class="row asideContents asideContents2 " style="background-image: url('images/backgrounds/s_image.jpg');">
+    <h2>Services</h2>
+    <p> Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
+    <p>The outcome of this scoping session ia proposal or high-level statement of work.</p>
+    <p>based on your requirements, we can provide acomplete offering or just the pieces you need.</p>
     </div>
-    <div class="card-columns">
-      <div class="card">
-        <img class="card-img-top" src="image/services_icons/dev_icon.png" alt="dev">
-        <div class="card-body">
-          <h4 class="card-title">DEVELOPMENT</h4>
-          <p class="card-text">Text</p>
+</aside>
+<!-- What we do section -->
+<section id="whatWeDo" class="container-fluid"> 
+    <h2 style="text-align: center;">What we do</h2>
+    <div class="row toggleSection">
+        <div class="toggleImage1">
+            <div class="initiallyShown1"><img src="images/services_icons/design_icon.png" alt="design icon" ></div>
+            <div class="initiallyHiden1">
+                <h3><b>DESIGN</b></h3>
+                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                <p>Throughout your project, our designers create and implement visual designsand workflows, solicit user feedback and work with you to make sure what gets built is what is neede</p>
+            </div>
         </div>
-      </div>
+        <div class="toggleImage2">
+            <div class="initiallyShown2"><img  src="images/services_icons/dev_icon.png" alt="dev icon" ></div>
+            <div class="initiallyHiden2">
+                <h3> <b>DEVELOPMENT</b> </h3>
+                <p>All engineers are fluent in the latest enterprise, mobile and web technologies.</p>
+                <p>They collaborate with your team to write, and improve code on a daily basis,usingproven practices such as text-driven development and pir programming.</p>
+            </div>
+        </div>
+        <div class="toggleImage3">
+            <div class="initiallyShown3"><img src="images/services_icons/product_icon.png" alt="product icon" ></div>
+            <div class="initiallyHiden3">
+                <h3> <b>PRODUCT MANAGEMENT</b> </h3>
+                <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for change as business requirements evolve.</p>
+            </div>
+        </div>
     </div>
-
-    <div class="card">
-      <img class="card-img-top" src="image/services_icons/product_icon.png" alt="product">
-      <div class="card-body">
-        <h4 class="card-title">PRODUCT MANAGEMENT</h4>
-        <p class="card-text">Text</p>
-      </div>
+</section>
+<!-- portfolio section -->
+<section id="projects" class="container">
+    <div class="row">
+        <div class="rowElement" id="rowElement">
+            <div id="1" class="inittiallyHiddenMain1 inittialltHiddenMain" style="background-image:url('images/portfolio/work1.jpg') ;" >
+                <div id="2" class="initiallyHidden1 initiallyHidden "> 
+                <h3>Pets website</h3>
+                </div>
+            </div>
+        </div>
+        <div class="rowElement" id="rowElement">
+            <div class="inittiallyHiddenMain2 inittialltHiddenMain" style="background-image:url('images/portfolio/work2.jpg') ;" >
+                <div class="initiallyHidden2 initiallyHidden"> 
+                <h3>Portfolio landing page</h3>
+                </div>
+            </div>
+        </div>
+        <div class="rowElement" id="rowElement">
+            <div class="inittiallyHiddenMain3 inittialltHiddenMain" style="background-image:url('images/portfolio/work3.jpg') ;" >
+                <div class="initiallyHidden3 initiallyHidden"> 
+                <h3>Cookie recipe</h3>
+                </div>
+            </div>
+        </div>
+        <div class="rowElement" id="rowElement">
+            <div class="inittiallyHiddenMain4 inittialltHiddenMain" style="background-image:url('images/portfolio/work4.jpg') ;" >
+                <div class="initiallyHidden4 initiallyHidden "> 
+                <h3 >Royal palace landing page</h3>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  </div>
-  <h1 class="display-4">What we do</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-    featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#What we do" role="button">What we do</a>
-  </p>
-  </div>
-  <divclass="<div class="jumbotron">
-    <div class="card-decks">
-    <div class="card-columns">
-      <div class="card">
-        <!-- <img class="card-img-top" src="image/portfolio/work1.jpg" alt="1"> -->
-        <div class="card-body">
-          <!-- <h4 class="card-title">Title</h4> -->
-          <!-- <p class="card-text">Text</p> -->
+    <!-- second row -->
+    <div class="row">
+        <div class="rowElement" id="rowElement">
+            <div class="inittiallyHiddenMain5 inittialltHiddenMain" style="background-image:url('images/portfolio/work5.jpg') ;" >
+                <div class="initiallyHidden5 initiallyHidden"> 
+                <h3>Social media template</h3>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- <div class="card-deck"> -->
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="image/portfolio/work1.jpg" alt="1">
-          <div class="card-body">
-          </div>
+        <div class="rowElement" id="rowElement">
+            <div class="inittiallyHiddenMain6 inittialltHiddenMain" style="background-image:url('images/portfolio/work6.jpg') ;" >
+                <div class="initiallyHidden6 initiallyHidden"> 
+                <h3>HTML & CSS animations</h3>
+                </div>
+            </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="image/portfolio/work2.jpg" alt="2">
-          <div class="card-body">
-
-          </div>
+        <div class="rowElement" id="rowElement">
+            <div class="inittiallyHiddenMain7 inittialltHiddenMain" style="background-image:url('images/portfolio/work7.jpg') ;" >
+                <div class="initiallyHidden7 initiallyHidden"> 
+                <h3>Carousel</h3>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="image/portfolio/work3.jpg" alt="3">
-          <div class="card-body">
-          </div>
+        <div class="rowElement" id="rowElement">
+            <div class="inittiallyHiddenMain8 inittialltHiddenMain" style="background-image:url('images/portfolio/work8.jpg') ;" >
+                <div class="initiallyHidden8 initiallyHidden"> 
+                <h3>Delani studio</h3>
+                </div>
+            </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="image/portfolio/work4.jpg" alt="4">
-          <div class="card-body">
-          </div>
-        </div>
-      </div>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="image/portfolio/work5.jpg" alt="5">
-          <div class="card-body">
-
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="image/portfolio/work6.jpg" alt="6">
-          <div class="card-body">
-          </div>
-        </div>
-      </div>
-
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="image/portfolio/work7.jpg" alt="7">
-          <div class="card-body">
-
-          </div>
-        </div>
-
-        <div class="card">
-          <img class="card-img-top" src="image/portfolio/work8.jpg" alt="8">
-          <div class="card-body">
-
-          </div>
-        </div>
-      </div>
-      </div>
     </div>
-    <h1 class="display-3">PORTFOLIO</h1>
-    <p class="lead">Jumbo helper text</p>
-    <hr class="my-2">
-    <p>More info</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#Portfolio" role="button">Portfolio</a>
-    </p>
-    </div>
-
-
-    <div class="jumbotron">
-      <h1 class="display-4">Contact us</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-        to
-        featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.
-      </p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
-    </div>
-    <div class="jumbotron">
-      <div class="card text-white bg-secondary">
-        <img class="card-img-top" src="image/backgrounds/c_image.jpg" alt="c">
-        <div class="card-body">
-          
-          <h4 class="card-title">Title</h4>
-          <p class="card-text">Text</p>
+</section>
+<!-- form section -->
+<section id="contact" class="container-fluid">
+    <div class="row" style="background-image: url('images/backgrounds/c_image.jpg');">
+        <div class="myForm ">
+            <h2>Contact us</h2>
+            <form id="myForm" >
+                <div style="display: flex !important;">  
+                <div class="form-group">
+                    <input name="name" id="name" class="form-control" type="text" placeholder="Enter name" required>
+                </div>
+                <div class="form-group" >
+                    <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="your message here ..." rows="10"></textarea>
+                </div>
+                <button id="submit" class="btn btn-default" onclick="myMessage() ; clearForm()" type="button">Submit form</button>  
+            </form>
+              <h5 id="popUp"></h5>
         </div>
-      </div>
-      <h1 class="display-4">Contact </h1>
-     
-      <div class="container px-lg-5">
-        <div class="row mx-lg-n5">
-          <div class="col py-3 px-lg-5 border bg-light">Name</div>
-          <div class="col py-3 px-lg-5 border bg-light">Email</div>
-          .example-container {
-            @include make-container();
-            // Make sure to define this width after the mixin to override
-            // `width: 100%` generated by `make-container()`
-            width: 800px;
-          }
-          
-          .example-row {
-            @include make-row();
-          }
-          
-          .example-content-main {
-            @include make-col-ready();
-          
-            @include media-breakpoint-up(sm) {
-              @include make-col(6);
-            }
-            @include media-breakpoint-up(lg) {
-              @include make-col(8);
-            }
-          }
-          
-          .example-content-secondary {
-            @include make-col-ready();
-          
-            @include media-breakpoint-up(sm) {
-              @include make-col(6);
-            }
-            @include media-breakpoint-up(lg) {
-              @include make-col(4);
-            }
-          }
+    </div>
+</section>
+<!-- The footer -->
+<footer id="footer" class="container-fluid">
+    <div class="row">
+        <ul class="list-inline myList">
+            <li class="list-inline-item"><img src="images/social_icons/behance.png" alt="behance"></li>
+            <li class="list-inline-item"><img src="images/social_icons/dribble.png" alt="dribble"></li>
+            <li class="list-inline-item"><img src="images/social_icons/facebook.png" alt="facebook"></li>
+            <li class="list-inline-item"><img src="images/social_icons/flickr.png" alt="flickr"></li>
+            <li class="list-inline-item"><img src="images/social_icons/g_plus.png" alt="g_plus"></li>
+            <li class="list-inline-item"><img src="images/social_icons/pinterest.png" alt="pinterest"></li>
+            <li class="list-inline-item"><img src="images/social_icons/skype.png" alt="skype"></li>
+            <li class="list-inline-item"><img src="images/social_icons/stumble_upon.png" alt="stumble_upon"></li>
+            <li class="list-inline-item"><img src="images/social_icons/twitter.png" alt="twitter"></li>
+            <li class="list-inline-item"><img src="images/social_icons/you_tube.png" alt="you_tube"></li>
+        </ul>
+        <div class="row footer">
+            <h5>DELANI STUDIO</h5>
+            <h6>2020</h6>
         </div>
-      </div>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-        to
-        featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.
-      </p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#Contact" role="button">Contact</a>
-      </p>
     </div>
-    </p>
-    <div class="jumbotron">
-<div class="card">
-  <div class="icon-bar">
-     <img src="image/social_icons/behance.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a> 
-    <img src="image/social_icons/dribble.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-facebook"></i></a> 
-    <img src="image/social_icons/facebook.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a>
-    <img src="image/social_icons/flickr.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""> 
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a> 
-    <img src="image/social_icons/g_plus.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a> 
-    <img src="image/social_icons/pinterest.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a> 
-    <img src="image/social_icons/skype.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a> 
-    <img src="image/social_icons/stumble_upon.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a> 
-    <img src="image/social_icons/twitter.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a> 
-    <img src="image/social_icons/you_tube.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a> 
-    <img src="image/social_icons/logo.png"class="-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-    <a href="#" class="i class="fa fa-behance aria-hidden="true"></i><i class="fa fa-behance"></i></a>
-  </div>
-  
-</div>
-
-
-    </div>
-    </div>
-    </div>
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
+</footer>
+<!-- jQuery, popperr and bootstrap cdns -->
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
 </body>
-
 </html>
-
-
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
