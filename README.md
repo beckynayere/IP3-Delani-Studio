@@ -16,16 +16,34 @@ jQuery
 javascript
 
 #BDD
-- ---------------------------------------------------------
-|Inputs|      Description                                 |
-|Name	 |       Here you will add your name.               |
-|email	 |      Here you will enter your valid email.       |
-|Message |  This is the message that you will be sending us.|
------------------------------------------------------------------------------------------------------------------------------
-|Output	 |     Description
-|Name	 |      A pop up will appear with your name and a thank you message . This shows that we have received your message. |
-|Error	 |    If you submit an empty form , you get a popup message telling you you did not enter a name or email or message |
------------------------------------------------------------------------------------------------------------------------------|
+
+Inputs|      Description                                 
+Name	        Here you will add your name.               
+email	       Here you will enter your valid email.       
+Message       This is the message that you will be sending us.
+
+Output	      Description
+Name	       A pop up will appear with your name and a thank you message . This shows that we have received your message. 
+Error	    If you submit an empty form , you get a popup message telling you you did not enter a name or email or message 
+
+### Development Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+Fork the repo
+
+Create a new branch (git checkout -b improve-feature)
+
+Make the appropriate changes in the files
+
+Add changes to reflect the changes made
+
+Commit your changes (git commit -am 'Improve feature')
+
+Push to the branch (git push origin improve-feature)
+
+Create a Pull Request
+
 ## Contribution
 Incase of any contributions, feel free to do so by visiting[this link].https://github.com/beckynayere/IP3-Delani-Studio.git
 ### License
