@@ -2,23 +2,32 @@
 This Repository contains code for my akan name aplication.
 ##### By Rebecca Nayere
 ## Description
-
-              </div>  
+A Delani studio landing page, with the about us page, that describes us; a what we do section, that shows the activities we do; the portfolio section, that shows some of the projects completed; a contact us form, through which user can send us a message with their name and email; and a footer with social icons.
+               
 ## Setup Instructions
-* git clone https://github.com/hamida-mstafa/projectakan on your terminal.
+* git clone https://github.com/beckynayere/IP3-Delani-Studio.git
 * Navigate to the akan names folder.
 * Open the folder in your editor.
 ## Technologies Used
 * HTML
 * CSS
 * bootsrap
+jQuery
+javascript
+
 #BDD
-- Enter your birthday details
- You will input your details by typing or by clicking on the provided calender.
- -Choose your gender either Male or Female field provided since your akan name will be outputed only when you have provided the gender and your valid dates so you need to understand that the gender section is important.
- -The submit button is the part where your input or your details have been feed to the application and then it display or output your Akan name and the day your were born in case you forget to choose the gender or the correct date aprompt message will appear to inform you to input the correct details.
+- ---------------------------------------------------------
+|Inputs|      Description                                 |
+|Name	 |       Here you will add your name.               |
+|email	 |      Here you will enter your valid email.       |
+|Message |  This is the message that you will be sending us.|
+-----------------------------------------------------------------------------------------------------------------------------
+|Output	 |     Description
+|Name	 |      A pop up will appear with your name and a thank you message . This shows that we have received your message. |
+|Error	 |    If you submit an empty form , you get a popup message telling you you did not enter a name or email or message |
+-----------------------------------------------------------------------------------------------------------------------------|
 ## Contribution
-Incase of any contributions, feel free to do so by visiting[this link](https://github.com.hamida-mstafa/projectakan).
+Incase of any contributions, feel free to do so by visiting[this link].https://github.com/beckynayere/IP3-Delani-Studio.git
 ### License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Copyright (c) 2020 **mids**
