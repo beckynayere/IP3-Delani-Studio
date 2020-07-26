@@ -163,4 +163,17 @@ background-image: url("image/services_icons/product_icon.png");
         float: left ;
     }
 }
+/* portfolio */
+.row{
+    margin-top: 3vh;
+}
+.rowElement{
+    width: 24%;
+    min-height: 24vh;
+    margin-left: 1%;
+}
+.rowElement img{
+    width: 100%;
+    height: auto;
+}
 }
