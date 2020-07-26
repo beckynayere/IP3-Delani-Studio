@@ -15,7 +15,7 @@ A Delani studio landing page, with the about us page, that describes us; a what 
 jQuery
 javascript
 
-#BDD
+### BDD
 
 Inputs|      Description                                 
 Name	        Here you will add your name.               
