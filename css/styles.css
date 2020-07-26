@@ -138,3 +138,11 @@ background-image: url("image/services_icons/product_icon.png");
         position: absolute;
         bottom: 10px;
     }
+
+/*  what we do section responsive */
+
+@media screen and (max-width: 720px) and (min-width: 100px) {
+    .toggleImage1,.toggleImage2,.toggleImage3{
+        width: 100%;
+        float: left;
+    }
