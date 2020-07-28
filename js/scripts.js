@@ -5,6 +5,7 @@
             }else{
                 document.getElementById("popUp").innerHTML = "*"  + name + myMessage ; 
                 alert("*"  + name + myMessage );
+            }
                 
                 
                 // $(document).ready(function(){
@@ -12,6 +13,3 @@
                 //     $(".toggle").on("click", function(e){
                 //         $(this).toggleClass("expanded");
                 //         $content.slideToggle();
-                //     });
-                // });
-        
