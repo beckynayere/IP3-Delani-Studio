@@ -6,7 +6,11 @@
                 document.getElementById("popUp").innerHTML = "*"  + name + myMessage ; 
                 alert("*"  + name + myMessage );
             }
-                
+            //function to clear input fields after submisssion.
+            function clearForm() {
+            document.getElementById("myForm").reset(); 
+
+            }
                 
                 // $(document).ready(function(){
                 //     var $content = $(".content").hide();
