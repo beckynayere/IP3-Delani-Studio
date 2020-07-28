@@ -1,5 +1,6 @@
 
 
+  
 nav{
     position: fixed !important;
     top: 0;
@@ -8,7 +9,7 @@ nav{
 }
 .logo{
     width: 40px;
-    background-color: greenyellow;
+    background-color:greenyellow;
     border-radius: 50%;
     padding: 0px;
 
@@ -23,76 +24,38 @@ nav-item,li,a{
     color: black !important;
 }
 .nav-item,li,a:hover{
-    color: blue !important;
+    color: goldenrod !important;
 }
-/* end of nav styles */.jumbotron  Welcome {
-    background-image: url("image/background/h_img.jpg");
-    background-size: auto;
+/* end of nav styles */
+#section{
+    background-position: center;
     background-size: cover;
-    
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-.jumbotron services { 
-            background-image: url('image/background/s_img.jpg'); 
-            background-size: cover;
+#section img:last-child{
+    position: absolute;
+    bottom: 10px;
 }
-.jumbotron card {
-    background-image: url("image/service_icons/dev_icon.png");
-
+.asideContents{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 20%;
 }
-.jumbotron card {
-    background-image: url("image/service_icons/design_png");
+.asideContents2{
+    color: white;
+    min-height: 60vh;
+    background-position: center;
 }
-.jumbotron card {
-    background-image: url("image/service_icons/product_icon");
-    
-}
-
-.jumbotron portfolio {
-    background-image: url("image/portfolio/work1.jpg");
-}
-.jumbotron portfolio {
-    background-image: url("image/portfolio/work2.jpg");
-}
-.jumbotron portfolio {
-    background-image: url("image/portfolio/work3.jpg");
-}
-.jumbotron portfolio {
-    background-image: url("image/portfolio/work4.jpg");
-}
-.jumbotron portfolio {
-    background-image: url("image/portfolio/work5.jpg");
-}
-.jumbotron portfolio {
-    background-image: url("image/portfolio/work6.jpg");
-}
-.jumbotron portfolio {
-    background-image: url("image/portfolio/work7.jpg");
-}
-.jumbotron portfolio {
-    background-image: url("image/portfolio/work8.jpg");
-}
-
-/* jumbotron what we do { */
-    .toggle{
-        display:inline-block;
-        height:48px;
-        width:48px;
-        background-image:url("image/services_icons/design_icon.png");
-    }
-
-    .toggle.expanded{
-        background-image:url("image/services_icons/dev_icon.png");
-    }
-    .toggle.expanded{
-
-background-image: url("image/services_icons/product_icon.png");
-
-    }
-
-.toggle .text {
-    margin-left : 10px;
-}
-
+/* what we do section */
 .toggleSection{
     display: flex;
     min-height: 30vh;
@@ -123,45 +86,23 @@ background-image: url("image/services_icons/product_icon.png");
     margin: 5px 20px;
     text-align: center;
 }
-    #section{
-        background-position: center;
-        background-size: cover;
-        min-height: 95vh;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    #section img:last-child{
-        position: absolute;
-        bottom: 10px;
-    }
-
-/*  what we do section responsive */
+.initiallyHiden2{
+    display: none ;
+    margin: 5px 20px;
+    text-align: center;
+}
+.initiallyHiden3{
+    display: none ;
+    margin: 5px 20px;
+    text-align: center;
+}
+/* make the what we do section responsive */
 
 @media screen and (max-width: 720px) and (min-width: 100px) {
     .toggleImage1,.toggleImage2,.toggleImage3{
         width: 100%;
         float: left;
     }
-    /* rearrange the images on small screens */
-@media screen and (max-width: 850px) and (min-width: 600px) {
-    #rowElement{
-        width: 48% ;
-        margin: 2vh auto;
-        justify-content: space-around;
-        float: left ;
-    }
-}
-@media screen and (max-width: 599px) and (min-width: 100px) {
-    #rowElement{
-        width: 90% ;
-        margin: 1vh auto;
-        justify-content: space-around;
-        float: left ;
-    }
 }
 /* portfolio */
 .row{
@@ -175,69 +116,8 @@ background-image: url("image/services_icons/product_icon.png");
 .rowElement img{
     width: 100%;
     height: auto;
-}
-.inittialltHiddenMain{
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 33vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.initiallyHidden{
-    background-color: rgba(255, 255, 255, 0.63);
-    min-height: 33vh;
-    width: 100%;
-    display: none ;
-}
-.initiallyHidden h3{
-    padding-top: 12vh;
-    text-align: center;
-}
 }
 
-.asideContents{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5vh 20%;
-}
-.asideContents2{
-    color: white;
-    min-height: 60vh;
-    background-position: center;
-}
-@media screen and (max-width: 599px) and (min-width: 100px) {
-    #rowElement{
-        width: 90% ;
-        margin: 1vh auto;
-        justify-content: space-around;
-        float: left ;
-    }
-}
-/* The footer */
-.list-inline-item{
-    float: left !important;
-}
-/* portfolio */
-.row{
-    margin-top: 3vh;
-}
-.rowElement{
-    width: 24%;
-    min-height: 24vh;
-    margin-left: 1%;
-}
-.rowElement img{
-    width: 100%;
-    height: auto;
-}
 .inittialltHiddenMain{
     color: black;
     display: flex;
@@ -316,6 +196,13 @@ background-image: url("image/services_icons/product_icon.png");
 .list-inline-item{
     float: left !important;
 }
+.myList{
+    width: 100%;
+   margin: 5vh auto;
+   justify-content: center;
+   display: flex;
+    
+}
 .footer{
     width: 100%;
     margin: auto !important;
@@ -346,3 +233,5 @@ background-image: url("image/services_icons/product_icon.png");
     }
   }
   /* left slide show about us page*/
+
+
