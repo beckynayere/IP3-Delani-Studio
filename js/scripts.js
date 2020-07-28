@@ -30,6 +30,9 @@ $(document).ready(function(event){
 $("figure.portfolio-fig").hover(function () {
     $(this).find(".hoverable").show();
 });
+$('.inittiallyHiddenMain1').hover(function(){
+    $('.initiallyHidden1').toggle();
+});
 
 $("figure.portfolio-fig").mouseout(function () {
     $(this).find(".hoverable").hide();
